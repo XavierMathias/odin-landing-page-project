@@ -12,6 +12,9 @@ body{
 
 
 
+
+
+
 .quote-section{
     background-color: #E5E7EB;
     color:#1F2937;
@@ -28,10 +31,56 @@ body{
     font-size: 16px;
 }
 
+
+.signup-section{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.cta-section{
+    background-color: #3882F6;
+    color: white;
+    width: 140vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+span{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.items > p {
+    font-size: 20px;
+    padding-top: 3px;
+    margin: 0;
+}
+
+.signup-button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    width: 30vh;
+    height: 7vh;
+    font-size: 15px;
+    border-color: white;
+    border-style: solid;
+    
+}
+
+
 .footer{
     background-color: #1F2937;
     color: white;
     text-align: center;
     width: 100%;
-    padding: 20px;
+    padding: 40px;
 }
