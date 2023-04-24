@@ -7,7 +7,26 @@ body{
     font-family: 'Roboto';
 }
 
+.hero-section{
+    background-color: #1F2937;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
 
 
 
@@ -16,14 +35,16 @@ body{
 
 
 .quote-section{
-    background-color: #E5E7EB;
+    background-color: blue;
     color:#1F2937;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote{
-    font-size: 36px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -32,6 +53,9 @@ body{
 }
 
 
+
+
+/* SIGNUP AND FOOTER SECTION*/
 .signup-section{
     background-color: white;
     display: flex;
