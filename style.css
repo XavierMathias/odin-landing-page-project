@@ -19,14 +19,21 @@ body{
     align-items: center;
 }
 
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
 
 
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
-    padding: 20px;
-    margin-top: 0;
+    width: 100%;
 }
 
 .nav > ul {
