@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto';
 }
 
+/* HERO SECTION */
 .hero-section{
     background-color: #1F2937;
     width: 100%;
@@ -14,9 +15,11 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+
+
 
 .nav{
     display: flex;
@@ -47,6 +50,12 @@ a, li{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-texts-button > h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
 }
 
 .hero-texts-button{
