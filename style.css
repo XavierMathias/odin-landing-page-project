@@ -24,23 +24,23 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+    gap: 150px;
+    padding: 0 20px;
 }
-
-
 
 .nav{
     display: flex;
     justify-content:space-between;
     align-items: center;
     width: 100%;
+    padding: 20px;;
 }
 
 .nav > ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 60px;
 }
 
 .nav > h3 {
@@ -55,8 +55,11 @@ a, li{
 
 .hero-info{
     display: flex;
-    justify-content: center;
+    justify-content: none;
     align-items: center;
+    flex-direction: row;
+    width: 140vh;
+    height: 50vh;
 }
 
 .hero-texts-button > h2 {
@@ -68,13 +71,44 @@ a, li{
 .hero-texts-button{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items:flex-start;
+    font-size: 18px;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-texts-button > h2{
+    padding: 0;
+    margin: 0;
+}
+
+.signup-hero-button{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 40px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.image-placerholder{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
 }
 
 
+/* CARDS SECTION */
 
+/* code here */
 
+/* QUOTE SECTION */
 
 .quote-section{
     background-color: blue;
