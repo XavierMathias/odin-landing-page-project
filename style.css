@@ -107,7 +107,47 @@ a, li{
 
 /* CARDS SECTION */
 
-/* code here */
+.info-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    width: 100%;
+    height: 50vh;
+}
+
+.info-section > h2{
+    padding: 3vh;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 20px;
+    
+}
+
+.square{
+    border: 2px solid #3882F6;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10px;
+}
+
+.card > p {
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+}
 
 /* QUOTE SECTION */
 
