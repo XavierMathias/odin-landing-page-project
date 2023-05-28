@@ -32,14 +32,19 @@ body{
     justify-content:space-between;
     align-items: center;
     width: 100%;
-    padding: 0px;;
+    flex: 1;
 }
 
 .nav > ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
     gap: 60px;
+}
+
+.nav > li{
+    flex: 1;
+
 }
 
 .nav > h3 {
