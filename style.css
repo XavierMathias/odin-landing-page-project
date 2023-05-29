@@ -1,3 +1,7 @@
+html{
+    width: auto;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -77,13 +81,7 @@ a, li{
     align-items:flex-start;
     font-size: 18px;
     width: 50%;
-    padding: 0;
-    margin: 0;
-}
-
-.hero-texts-button > h2{
-    padding: 0;
-    margin: 0;
+    
 }
 
 .signup-hero-button{
@@ -115,13 +113,11 @@ a, li{
     flex-direction: column;
     align-items: center; 
     width: 100%;
-    margin: 5vh;
     height: auto;
 }
 
 .info-section > h2{
-    padding: 3vh;
-    margin: 0;
+    padding: 0vh;
 }
 .cards {
     display: flex;
@@ -178,9 +174,8 @@ a, li{
 
 
 
-
-
 /* SIGNUP AND FOOTER SECTION*/
+
 .signup-section{
     background-color: white;
     display: flex;
@@ -226,10 +221,11 @@ span{
 }
 
 
+
 .footer{
     background-color: #1F2937;
     color: white;
     text-align: center;
     width: 100%;
-    padding: 40px;
+    padding: 40px 0 40px 0;
 }
