@@ -117,7 +117,7 @@ a, li{
 }
 
 .info-section > h2{
-    padding: 0vh;
+    padding: 3vh;
 }
 .cards {
     display: flex;
@@ -125,6 +125,7 @@ a, li{
     justify-content: center;
     align-items: center;
     gap: 10vh;
+    padding: 0 10vh 10vh 10vh;
 }
 
 .card{
