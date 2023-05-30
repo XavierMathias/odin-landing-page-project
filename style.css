@@ -28,7 +28,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 50%;
+    gap: 17%;
 }
 
 .nav{
@@ -65,8 +65,10 @@ a, li{
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-around;
     width: 140vh;
-    height: 40vh;
+    height: 70vh;
+    
 }
 
 .hero-texts-button > h2 {
@@ -81,6 +83,7 @@ a, li{
     align-items:flex-start;
     font-size: 18px;
     width: 50%;
+    justify-content: center;
     
 }
 
@@ -101,7 +104,7 @@ a, li{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 
 
