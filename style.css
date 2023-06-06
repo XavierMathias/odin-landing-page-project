@@ -139,7 +139,11 @@ a, li{
     align-items: center;
     justify-content: center;
     width: 20vh;
-    
+    overflow: hidden;
+}
+
+.card img {
+    object-fit: contain;
 }
 
 .square{
