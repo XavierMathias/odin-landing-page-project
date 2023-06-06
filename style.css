@@ -28,7 +28,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 50%;
 }
 
 .nav{
@@ -65,13 +64,14 @@ a, li{
     display: flex;
     align-items: center;
     flex-direction: row;
+    overflow: auto;
     width: 140vh;
-    height: 40vh;
-    gap: 5px;
-    padding: 0;
+    height: auto;
+    padding: 10px;
+    border: 5px solid red;
 }
 
-.hero-texts-button > h2 {
+.hero-texts-button h2 {
     font-size: 48px;
     margin: 0;
     font-weight: bold;
@@ -82,7 +82,7 @@ a, li{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 18px;
     width: 50%;
     
@@ -99,9 +99,11 @@ a, li{
     
 }
 
-.hero_image{
-    width: 60%;
-    height: auto;
+.hero_image {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+
 }
 
 
